@@ -1,0 +1,91 @@
+    
+    @media (max-width: 460px) {
+        header nav label.check {
+          display: flex;
+          color: black;
+        }
+    
+    header nav input#check:checked~ul {
+        left: 0;
+      }
+      header nav ul {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        transition: 0.5s ease;
+        z-index: 10;
+        background-color: var(--dark-blue);
+        flex-direction: column;
+        gap: 50px;
+      }
+     
+      section.Services {
+        display: inline;
+        height: 565px 
+      
+       }
+      section.Services p {
+        padding-top: 0;
+        padding-left: 72px;
+        margin-left: 30%;
+    }
+    section.Services h1{
+      margin-left: 30%;
+    }
+    section#registration aside {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      width: auto;
+      margin-bottom: 65px
+     }
+     section#registration h2{
+      max-width: 500px;
+     }
+     section#registration{
+      grid-template-columns: auto;
+      height: 850px;
+     }
+     section#registration p.quote {
+      max-width: 345px;
+     }
+     section.choose {
+      height: 915px;
+     }
+     aside.choose-2{
+      grid-template-columns: auto;
+      justify-content: center;
+      align-items: center;
+     }
+     section.choose aside.choose-2 p{
+      padding: 0;
+     }
+     h2.choose-1{
+      padding-left: 0;
+     }
+     aside.choose-3{
+      grid-template-columns: auto;
+      gap: 0;
+      justify-content: center;
+      align-items: center;
+     }
+     aside.choose-3 h3 {
+      width: auto;
+     }
+     section.about {
+      height: 1232px
+     }
+     aside.about-1{
+      grid-template-columns: auto;
+      justify-content: center;
+      align-items: center;
+     }
+     h2.about-2{
+      max-width: 615px;
+      padding-left: 0;
+     }
+
+
+    }
